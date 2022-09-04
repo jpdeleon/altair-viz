@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding Vega-Lite</title>
+    <!-- CDN = content delivery network hosted @ jsdelivr  -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  </head>
+  <body>
+
+  <div id="view"></div>
+    <script type="text/javascript">
+      vegaEmbed("#view", './chart.json');
+    </script>
+  </body>
+</html>
